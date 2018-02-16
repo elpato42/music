@@ -35,6 +35,6 @@ public class App {
         drum.play();
         violin.play();
         doubleBass.play();
-        System.out.println();
+        System.out.println("What a nice music we have made!");
     }
 }
