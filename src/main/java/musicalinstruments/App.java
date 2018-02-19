@@ -32,7 +32,7 @@ public class App {
         Stringed violin = new Stringed("violin");
         Stringed doubleBass =new Stringed("double bass");
         System.out.println("Let`s check which instrument is lower");
-        if(doubleBass.isLowerThen(violin) == true){
+        if(doubleBass.isLowerThen(violin)){
             System.out.println(String.format("%s is lower then %s", doubleBass.getName(), violin.getName()));
         } else {
             System.out.println(String.format("%s is lower then %s", violin.getName(), doubleBass.getName()));
