@@ -1,4 +1,4 @@
-package main.java;
+package main.java.musicalinstruments;
 
 /**
  * Created by Екатерина on 15.02.2018.

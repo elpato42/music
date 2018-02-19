@@ -1,9 +1,9 @@
-package main.java;
+package main.java.musicalinstruments;
 
 
-import main.enam.Material;
-import main.enam.Note;
-import main.enam.Octave;
+import main.java.enam.Material;
+import main.java.enam.Note;
+import main.java.enam.Octave;
 
 /**
  * Created by Екатерина on 15.02.2018.

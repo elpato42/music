@@ -1,4 +1,4 @@
-package main.enam;
+package main.java.enam;
 
 import com.sun.deploy.uitoolkit.ui.ConsoleTraceListener;
 

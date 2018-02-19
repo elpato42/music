@@ -1,7 +1,6 @@
-package main.java;
+package main.java.musicalinstruments;
 
-import main.enam.Material;
-import main.enam.MethodOfSoundProduction;
+import main.java.enam.MethodOfSoundProduction;
 
 /**
  * Created by Екатерина on 15.02.2018.

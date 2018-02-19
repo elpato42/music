@@ -1,8 +1,8 @@
-package main.java;
+package main.java.musicalinstruments;
 
 import javafx.util.Pair;
-import main.enam.Note;
-import main.enam.Octave;
+import main.java.enam.Note;
+import main.java.enam.Octave;
 
 /**
  * Created by Екатерина on 15.02.2018.
@@ -51,6 +51,10 @@ public class DefiniteNoteInstrument extends Instrument{
         return min;
     }
 
+    public String getMinToString(){
+        if (min == null || min.getKey() == null || min.getValue() == null) return "not set";
+        return min.getKey().toString() + " of " + min.getValue().toString().toLowerCase() + "-octave";
+    }
     /**
      *
      * @return
@@ -88,12 +92,16 @@ public class DefiniteNoteInstrument extends Instrument{
         return max;
     }
 
+    public String getMaxToString(){
+        if (max == null || max.getKey() == null || max.getValue() == null) return "not set";
+        return max.getKey().toString() + " of " + max.getValue().toString().toLowerCase() + "-octave";
+    }
+
     /**
      *
      * @return
      */
     public Note getMaxNote(){return this.getMax().getKey();}
-
     /**
      *
      * @return

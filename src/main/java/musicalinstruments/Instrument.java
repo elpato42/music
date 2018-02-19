@@ -1,4 +1,4 @@
-package main.java;
+package main.java.musicalinstruments;
 
 /**
  * Created by Екатерина on 15.02.2018.
@@ -103,7 +103,10 @@ public class Instrument {
      */
     @Override
     public String toString(){
-        return String.format("Insrument %s of %s type", name, type);
+        if (type == null) {
+               return String.format("Instrument %s of none type", name);
+        }
+        return String.format("Instrument %s of %s type", name, type);
     }
 
 }

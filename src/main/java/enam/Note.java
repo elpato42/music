@@ -1,4 +1,4 @@
-package main.enam;
+package main.java.enam;
 
 /**
  * Created by Екатерина on 16.02.2018.

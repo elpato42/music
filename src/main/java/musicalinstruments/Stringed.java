@@ -1,7 +1,7 @@
-package main.java;
+package main.java.musicalinstruments;
 
-import main.enam.Note;
-import main.enam.Octave;
+import main.java.enam.Note;
+import main.java.enam.Octave;
 
 import java.util.Arrays;
 
@@ -91,6 +91,7 @@ public class Stringed extends DefiniteNoteInstrument {
      * @return строй
      */
     public String getTunings() {
+        if (tunings == null) return "tunings are not defined";
         return Arrays.toString(tunings);
     }
 

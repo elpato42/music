@@ -1,6 +1,6 @@
-package main.java;
+package main.java.musicalinstruments;
 
-import main.enam.MethodOfSoundProduction;
+import main.java.enam.MethodOfSoundProduction;
 
 /**
  * Created by Екатерина on 15.02.2018.
@@ -69,7 +69,7 @@ public class PercussionWithoutDefiniteNote extends Instrument implements Percuss
     @Override
     public String getMethodOfSoundProduction() {
         if (methodOfSoundProduction != null) {
-            return methodOfSoundProduction.toString();
+            return methodOfSoundProduction.toString().toLowerCase();
         }
         else {
             return "none";
