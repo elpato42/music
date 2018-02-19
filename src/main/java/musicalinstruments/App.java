@@ -1,13 +1,10 @@
 package main.java.musicalinstruments;
-
-import main.java.enam.MethodOfSoundProduction;
-
-import javax.swing.*;
 import java.util.Scanner;
-import java.util.function.BinaryOperator;
 
 /**
- * Created by Екатерина on 15.02.2018.
+ * Created by Ekaterina Semenova on 15.02.2018.
+ * @author Екатерина
+ *
  */
 public class App {
     public static void main(String[] args) {
